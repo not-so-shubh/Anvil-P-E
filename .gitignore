@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Reports / artifacts
+*.report.json
+report.json
+
+# macOS / zip junk
+.DS_Store
+__MACOSX/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large/generated local junk
+*.log
+*.tmp
